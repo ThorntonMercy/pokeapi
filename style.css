@@ -1,0 +1,77 @@
+/* header elements  */
+
+#banner {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+#bannerimage {
+    position: relative;
+}
+
+/* Body elements  */
+
+body {
+    background-color: #272a34;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #d8b00e;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    color: #ffffff;
+    margin: 10px;
+}
+
+/* Search Bar & Results */
+
+.searchInput {
+    background-color: #393939;
+    color: #ffffff;
+    border: 2px solid #ffd500;
+    border-radius: 8px;
+    padding: 10px 20px;
+    width: 300px;
+}
+
+.searchButton {
+    background-color: #393939;
+    color: #ffd500;
+    border: 2px solid #ffd500;
+    border-radius: 8px;
+    padding: 10px 20px;
+    width: 100px;
+}
+
+.error {
+    color: #ffed22;
+}
+
+/* Body Class Content Elements
+including background color and border elements for sections/articles */
+
+.content {
+    box-sizing: 70%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Footer Elements */
+
+.footer {
+    text-align: center;
+    font-size: medium;
+    font-variant-caps: all-small-caps;
+    color: #fff;
+    display: block;
+}

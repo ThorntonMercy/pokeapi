@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon API</title>
+</head>
+<header>
+    <!-- Banner Image -->
+    <div id="banner">
+        <div id="bannerimage">
+            <img src="banner.png" width="100%" alt="banner">
+
+        </div>
+</header>
+<br />
+<!-- Body Content -->
+
+<body>
+    <div class="content">
+        <h2>Pokémon Search</h2>
+        <p> You know you wanna type in the name or ID number of the Pokemon you're looking for. </p>
+        <input type="text" id="pokemonInput" class="searchInput" width="50%" placeholder="Enter Pokémon name or ID" />
+        <button class="searchButton" onclick="searchPokemon()">Search</button>
+    </div>
+    <div id="result" class="content"></div>
+    <script src="pokeindex.js"></script>
+</body>
+<!-- Footer Content  -->
+<footer class="footer">
+    &#169; 2025 Coding Project M. Thornton
+</footer>
+
+</html>
